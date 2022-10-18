@@ -1,0 +1,38 @@
+{
+  "name": "cita-bot-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "engines": {
+    "node": "14"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egor11223/cita-bot-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egor11223/cita-bot-server/issues"
+  },
+  "homepage": "https://github.com/egor11223/cita-bot-server#readme",
+  "dependencies": {
+    "@fastify/cors": "^8.1.0",
+    "@fastify/formbody": "^7.3.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "fastify": "^4.9.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-simple-import-sort": "latest"
+  }
+}
